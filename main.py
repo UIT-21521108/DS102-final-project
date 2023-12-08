@@ -9,7 +9,7 @@ encoder = pkl.load(input_ec)
 input_md = open('lrc_vsfc.pkl', 'rb')
 model = pkl.load(input_md)
 
-st.title('Sentiment Analysis from Vietnamese Students\' Feedback')
+st.title('Sentiment Analysis from Vietnamese Students Feedback')
 
 st.header('Write a feedback')
 text = st.text_area('', '')
