@@ -17,7 +17,7 @@ st.title('Sentiment Analysis from Vietnamese Students\' Feedback')
 image_path_or_url = 'https://strategyeducation.co.uk/wp-content/uploads/2020/05/The-Power-of-Feedback-Which-When-and-How.jpg'
 response = requests.get(image_path_or_url)
 image = Image.open(BytesIO(response.content))
-st.image(image, caption='Your Image Caption', use_column_width=True)
+st.image(image, use_column_width=True)
 st.header('Write a feedback')
 text = st.text_area('', '')
 
