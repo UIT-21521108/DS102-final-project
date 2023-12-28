@@ -3,7 +3,7 @@ import pickle as pkl
 import numpy as np
 import sklearn
 
-class_list = {'Negative': 'Negative', 'Positive': 'Positive', 'Neutral': 'Neutral'}
+class_list = {'negative': 'Negative', 'positive': 'Positive', 'neutral': 'Neutral'}
 input_ec = open('Tfd.pkl', 'rb')
 encoder = pkl.load(input_ec)
 
