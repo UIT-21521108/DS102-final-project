@@ -13,7 +13,7 @@ encoder = pkl.load(input_ec)
 input_md = open('svc.pkl', 'rb')
 model = pkl.load(input_md)
 
-st.title('Sentiment Analysis from Vietnamese Students\' Feedback')
+st.title('Sentiment Analysis\' Feedback')
 image_path_or_url = 'https://strategyeducation.co.uk/wp-content/uploads/2020/05/The-Power-of-Feedback-Which-When-and-How.jpg'
 response = requests.get(image_path_or_url)
 image = Image.open(BytesIO(response.content))
